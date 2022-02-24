@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+header {
+  position: fixed;
+  opacity: 60%;
+  background-color: #f0f0f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul li a {
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  color: red;
+}
+
+body {
+  background-image: url("../images/triangle.png");
+  background-size: cover;
+  position: relative;
+}
+
+body .full {
+  min-height: 650px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .full .introduction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .full .introduction h2 {
+  margin-top: 6%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  color: #e70000;
+}
+
+body .full .introduction p {
+  margin-top: 4%;
+  font-size: 20px;
+  text-align: center;
+}
+
+body .full .art {
+  margin-top: 6%;
+}
+
+body .full .art h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  color: #e70000;
+}
+
+body .full .products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 6%;
+}
+
+body .full .products h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  color: #e70000;
+}
+
+body .full .products .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .full .products .images .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 15px;
+}
+
+body .full .products .images .image a {
+  border: 1px solid black;
+}
+/*# sourceMappingURL=main.css.map */
